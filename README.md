@@ -10,13 +10,26 @@
 
 ----------------------
 
-## Day One
-
-There is also a precourse that needs to be completed after the TI and by the Wednesday before class start.
-
 # Gits/Github
 
+Directories are repositories.
 
+When you initially join a project, you will need to clone to your computer from Github.
+"Commits" are save points, Each commit is one or more changes to one or more files.
+Pushing uploads any unpushed commits
+
+git init to initialize Git repository within a folder
+Avoid making repositories inside repositories
+
+git status at every stage, gives you info on the status
+red text means that the file has not been committed
+
+git add "hey git, start tracking this file". like putting mail into an envelope
+git add . = period will add anything that has not been added
+
+git commit (every commit has to have a commit message
+
+git log = shows log of commits
 
 # Markdown
 
