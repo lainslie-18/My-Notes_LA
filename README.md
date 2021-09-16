@@ -1,6 +1,5 @@
 # My-Notes_LA (Data Science)
------------------------------------------------
------------------------------------------------
+*****************************************
 # Relevant Links
 
 ### Links are entered as [Description/Name](Link)  **makes it a clickable link
@@ -9,9 +8,9 @@
 
 * [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
-----------------------
+*****************************************
 
-# Gits/Github
+# <font color = green> Gits/Github </font>
 
 * git init to initialize Git repository within a folder. (Avoid making repositories inside repositories)
 
@@ -28,8 +27,28 @@ red text means that the file has not been committed
 
 * git diff = difference between the commits
 
-----------------------------------------------------
+**********************************************
+
 # Markdown
+
+# For Titles
+## For Major Headings
+### For subheadings
+#### For 4th level headings
+
+- bullet points
+
+>to block quote or indent
+
+**to make bold**, *to italicize*, ~~to strikethrough~~
+
+**To create task boxes (doesn't render appropriately on Github)**
+- [x] Some task
+- [ ] Some more tasks
+[x] Some task
+[ ] Some more task
+
+ <font color = color> To create a font color </font>
 
 ## Anchors/Internal Reference Links
 
@@ -43,12 +62,11 @@ In standard markdown, place an anchor <a name="abcd"></a> where you want to link
 
 ![Machine Learning Comic](https://imgs.xkcd.com/comics/machine_learning.png)
 
-----------------------------
+****************************************************
 
 # SQL
 
-
----------------------------------------
+****************************************************
 
 # Bash Scripting
 
@@ -67,7 +85,7 @@ function gitadder() {
 }
 ```
 
------------------------;
+****************************************************
 
 # Python
 
@@ -87,16 +105,20 @@ def factorial(n):
         prod *= num
         return prod
 ```
-------------------------------------------
+
+**********************************************************
+
 # `matplotlib.pyplot` visualizations
 
 * Tovio says will be one of the most important sections (save code so won't have to redo)
 
----------------------------------------
+******************************************************
 
 # pandas
 
 * Tovio says is also important 
+
+******************************************************
 
 # Derivations 
 
@@ -104,11 +126,10 @@ def factorial(n):
 
 [Derivation of a Perceptron]()
 
---------------------------------------
+*******************************************************
 
 # LaTEX
-* won't render in Github but will in VSCode
-* figure out why this is not rendering for me. Discussed at 1:02:41 in Notetaking Strategy Video
+
 
 $$
 \sum_{x=1}^{25} a_x
