@@ -50,6 +50,14 @@ red text means that the file has not been committed
 
  <font color = color> To create a font color </font>
 
+
+ <div class="alert alert-block alert-info"><b>Tip:</b> Use blue boxes (alert-info) for tips and notes.If it’s a note, you don’t have to include the word “Note”.</div>
+
+ <div class="alert alert-block alert-warning">Write stuff here.</div>
+ 
+
+
+
 ## Anchors/Internal Reference Links
 
 In standard markdown, place an anchor <a name="abcd"></a> where you want to link to and refer to it on the same page by [link text] (#abcd).
