@@ -10,6 +10,10 @@
 
 *****************************************
 
+Something I would advise you to consider is perhaps a change in format. Industry standard is comment notation is used for explaining what your code is doing, and markdown notation is for documenting takeaways and questions. I would suggest using markdown for your null and alternative hypothesis, as well as using markdown to explain, in plain English, what the results of your statistical tests mean.
+
+**********************************************
+
 # <font color = green> Gits/Github </font>
 
 * git init to initialize Git repository within a folder. (Avoid making repositories inside repositories)
@@ -50,12 +54,30 @@ red text means that the file has not been committed
 
  <font color = color> To create a font color </font>
 
+<code style="background:yellow;color:black">How to highlight text.</code>
 
- <div class="alert alert-block alert-info"><b>Tip:</b> Use blue boxes (alert-info) for tips and notes.If it’s a note, you don’t have to include the word “Note”.</div>
+<code style="background:black;color:white">How to highlight with black background</code>
 
- <div class="alert alert-block alert-warning">Write stuff here.</div>
- 
+### How to create a table:
+| Step  1 | Step 2 | Step 3 | Step 4 | Step 5 |
+|---------|--------|--------|--------|--------|
+|Acquire  |Prep    |Explore |Model   |Evaluate|
 
+:--- = left align
+---: = right align
+:---: = centered
+
+`How to do monospace font for code snippets using the grave accent. `
+
+```
+how to do code blocks
+```
+
+how to add a button with a link
+<button class="button-save large">[Codeup Data Science](https://codeup.com/ds-course-catalog/)</button>
+
+how to add a linked image button (cannot use locally saved img. need image url)
+[![alt text](image address)](target_url)
 
 
 ## Anchors/Internal Reference Links
@@ -74,7 +96,39 @@ In standard markdown, place an anchor <a name="abcd"></a> where you want to link
 
 # SQL
 
+Data stack - 
+
+Relational Database Mgmt System (RMDS) - is operating system for the database
+
+Data definitiion language - 
+
+Data Manipulation language - we use to interact with data
+
+Flavors - different dialects of SQL
+
+We as data scientists work with data warehouse
+
+SQL works with data warehouse
+
+Custom functions in SQL are called stored procedure if I want to look into it.
+
+There are SQL formatter websites where you can put in messy SQL and it returns a pretty/simplified version (search SQL formatter)
+
+
 ****************************************************
+
+# Jupyter Notebook
+
+* How to change theme:
+
+https://stackoverflow.com/questions/46510192/change-the-theme-in-jupyter-notebook
+
+
+
+
+
+
+*****************************************************************
 
 # Bash Scripting
 
@@ -119,6 +173,11 @@ def factorial(n):
 # `matplotlib.pyplot` visualizations
 
 * Tovio says will be one of the most important sections (save code so won't have to redo)
+
+* `print(plt.style.available)`
+
+* `plt.style.use('seaborn-deep')`
+
 
 ******************************************************
 
