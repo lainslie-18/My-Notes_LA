@@ -292,4 +292,11 @@ Cumulative Frequency - the sum of relative frequencies so far, the cumulative fr
 
 Pareto Diagram - a type of bar chart where frequencies are shown in descending order, an additional line on the chart shows the cumulative frequency (almost like a cross between a bar and pie chart)
 
+## Charts
+Histogram - a type of bar chart that represents numerical data, divided into intervals (or bins) that are adjacent, not overlapping and span from first observation to the last
 
+Bins - the intervals that are represented in a histogram
+
+Cross Table/Contingency Table - a table which represents categorical data, with categories on one axis and their frequencies on the other, can be built with absolute or relative frequency
+
+Scatter Plot - a plot that represents numerical data, used to observe relationship between two numerical variables 
