@@ -299,4 +299,13 @@ Bins - the intervals that are represented in a histogram
 
 Cross Table/Contingency Table - a table which represents categorical data, with categories on one axis and their frequencies on the other, can be built with absolute or relative frequency
 
-Scatter Plot - a plot that represents numerical data, used to observe relationship between two numerical variables 
+Scatter Plot - a plot that represents numerical data, used to observe relationship between two numerical variables
+
+## Measures of Central Tendency
+Measures of Central Tendency - measures that describe the data through 'averages', the most common are mean, median, and mode but there is also geometric mean, harmonic mean, weighted average mean, and more
+
+Mean - the simple average of the dataset, denoted by μ (mu) for population mean and x̅ (x-bar) for sample mean
+
+Median - the middle value in an ordered data set ((n + 1)/ 2), the simple mean of the two middle values when you have an even number of values
+
+Mode - the value that occurs most often, can be 0, 1, or more, generally not that useful if there's too many though
